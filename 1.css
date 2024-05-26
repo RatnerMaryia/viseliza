@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    background-image: url("bg.forest.avif");
+}
+.words{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    left: 15%;
+    width: 70%;
+    height: 200px;
+    background-color: rgba(139, 180, 156, 0.869);
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 30%;
+    visibility: hidden;
+    
+}
+.words p {
+    font-size: 40px;
+    width: 95px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    background-image: url("bg.forest.avif");
+}
+
+.words p:hover{
+    cursor: pointer;
+}
+#start{
+    width: auto;    
+    font-size: 70px;
+    position: absolute;                                
+    top: 25%;
+    left:37%;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgba(224, 235, 246, 0.657);
+}
+#container_img{
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    background-color: rgba(255, 255, 255, 0.601);
+}
+#container_img img{
+    width: 480px;
+}
+#container_answer{
+    position: absolute;
+    width: 100%;
+    top: 57%;
+    text-align: center;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.429);
+}
+#start:hover{
+    cursor: pointer;
+}
+#level{
+    width: 15%;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    margin: 30px;
+    background-color: rgba(210, 245, 221, 0.539);
+    background-size: 20%;
+}
+@media (max-width: 750px){
+    #start{
+        left: 20%;
+    }
+    .words{
+        margin-top: 80%;
+    }
+    #container_img{
+        left: 22%;
+    }
+}
+#bg {
+    width: 1900px;
+    height: 1000px;
+}
+p{ 
+    margin: 0%;
+    margin-top: 2%;
+}
+#header{
+    display: flex;
+}
+#levelbox{
+    height: 140px;
+    width: 93%; 
+    display: none;
+    justify-content: space-between;
+    font-size: 30px;
+}
+#Balance{
+    width: 15%;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin: 30px;
+    margin-right: 57%;
+    background-color: rgba(255, 255, 255, 0.539);
+    background-size: 20%;
+
+}
